@@ -1,4 +1,17 @@
+/*Fonte da logo*/
 @import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+.lancelot-regular {
+  font-family: "Lancelot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Fonte do cabeçalho e de quase todo o resto*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+.nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 * {
     margin: 0;
@@ -7,5 +20,28 @@
 }
 
 body {
+    grid-area: header
+               main
+               footer;
+}
 
+header h1 {
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+    font-family: "Lancelot", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2vmin;
+    margin-top: 2vmin;
+}
+.navbar ul {
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+    list-style-type: none;
+    gap: 2vmax;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
 }
