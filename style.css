@@ -33,7 +33,7 @@ header {
   align-items: center;
   background-color: #730501;
   color: #ffffff;
-  min-height: 8vmax;
+  min-height: 7vmax;
 }
 .logo h1 {
   display: flex;
@@ -45,7 +45,7 @@ header {
   font-style: normal;
   justify-content: start;
   font-size: 4vmax;
-  margin-top: 1vmax;
+  margin-top: 2vmax;
   margin-left: 2.3vmax;
   cursor: pointer;
 }
@@ -61,7 +61,7 @@ nav ul {
   font-weight: 400;
   font-style: normal;
   font-size: 1.6vmax;
-  margin-top: 1vax;
+  margin-top: 2vmax;
   margin-right: 2.3vmax;
   align-items: center;
 }
@@ -76,7 +76,6 @@ nav li:hover {
   height: 120vh;
   overflow: hidden;
   position: relative;
-  background-color: #0000007e;
 }
 
 .banner {
@@ -91,6 +90,7 @@ nav li:hover {
   opacity: 0;
   animation: fadeSlide 15s infinite;
   animation-timing-function: ease-in-out;
+  z-index: -1;
 }
 
 .banner1 {
@@ -100,12 +100,12 @@ nav li:hover {
 
 .banner2 {
   background-image: url(home/banner2.png);
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 
 .banner3 {
   background-image: url(home/banner3.png);
-  animation-delay: 10s;
+  animation-delay: 9s;
 }
 
 @keyframes fadeSlide {
@@ -114,4 +114,27 @@ nav li:hover {
   30%  { opacity: 1; }   /* ainda visível */
   50%  { opacity: 0; }  
   100% { opacity: 0; }   /* invisível de novo */
+}
+
+.slider-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 77px;
+  margin-top: 105.2vmin;
+  z-index: 1;
+}
+
+.slider-inputs input[type="radio"] {
+  appearance: none;
+  width: 49px;
+  height: 49px;
+  border: 6px solid #7b0000; 
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slider-inputs input[type="radio"]:checked {
+  background-color: #730501;
 }
