@@ -1,17 +1,15 @@
 /*Fonte da logo*/
 @import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
-.lancelot-regular {
-  font-family: "Lancelot", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
 /*Fonte do cabeçalho e de quase todo o resto*/
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
-.nanum-myeongjo-regular {
-  font-family: "Nanum Myeongjo", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
+/*Fonte do Radu no Instagram*/
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Fonte Lexend*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
 
 /*Configurações Gerais*/
 * {
@@ -69,6 +67,10 @@ nav li:hover {
   color: #000000;
   cursor: pointer;
 }
+nav li .material-icons-outlined {
+  font-size: 2.2vmax;
+}
+
 
 /*Banners*/
 .banner-principal {
@@ -116,25 +118,325 @@ nav li:hover {
   100% { opacity: 0; }   /* invisível de novo */
 }
 
-.slider-inputs {
+
+/* Conteúdo principal*/
+
+.topicos {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1vmax;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.topicos > .linha {
+  background-color: #707070;
+  width: 36vw;
+  height: 0.1vh;
+}
+.topicos > .linha2 {
+  background-color: #707070;
+  width: 40vw;
+  height: 0.1vh;
+}
+.topicos h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vmax;
+  flex-wrap: nowrap;
+}
+
+
+.card-container {
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
-  gap: 77px;
-  margin-top: 105.2vmin;
-  z-index: 1;
+  flex-wrap: nowrap;
+  gap: 10vmax;
+}
+.card {
+  width: 18vmax;
+  height: 22vmax;
+  overflow: hidden;
+  border: 0.1px solid #000000;
+}
+.card h3 {
+  font-size: 1.2vmax;
+  margin-bottom: 0.5vmax;
+  text-align: justify;
+  margin-left: 1.5vmax;
+  margin-top: 0.5vmax;
+}
+.card p {
+  color: #5D5D5D;
+  font-size: 1.1vmax;
+  text-align: justify;
+  margin-left: 1.5vmax;
+}
+.card1 {
+  width: 12vmax;
+  height: 16vmax;
+  margin-left: 3.3vmax;
+}
+.card2 {
+  width: 14vmax;
+  height: 12vmax;
+  margin-left: 1.8vmax;
+  margin-top: 4vmax;
+}
+.card3 {
+  width: 12vmax;
+  height: 14vmax;
+  margin-left: 3vmax;
+  margin-top: 1.8vmax;
+}
+.card4 {
+  width: 14vmax;
+  height: 12vmax;
+  margin-left: 2vmax;
+  margin-top: 4vmax;
+}
+.card5 {
+  width: 12vmax;
+  height: 13vmax;
+  margin-left: 3vmax;
+  margin-top: 3vmax;
+}
+.card6 {
+  width: 12vmax;
+  height: 12vmax;
+  margin-left: 3vmax;
+  margin-top: 4vmax;
 }
 
-.slider-inputs input[type="radio"] {
-  appearance: none;
-  width: 49px;
-  height: 49px;
-  border: 6px solid #7b0000; 
-  border-radius: 50%;
-  background-color: white;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.radu h1 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vmax;
+  margin-top: 7vmax;
+}
+.instagram-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 4vmax;
+}
+.instagram-cards img {
+  width: 19vmax;
+  height: 26vmax;
 }
 
-.slider-inputs input[type="radio"]:checked {
+
+.sobre {
+  display: flex;
+  align-items: center;
+  background-color: #C8C8C8;
+  width: 100%;
+  height: 35vmax;
+  margin-top: 5vmax;
+}
+.loja img {
+  width: 48vmax;
+  height: 24vmax;
+  margin-top: 3vmax;
+  margin-left: 4vmax;
+}
+.texto h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3vmax;
+  text-align: center;
+  margin-bottom: 1vmax;
+  margin-top: 2vmax;
+}
+.texto p {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.8vmax;
+  margin-left: 3vmax;
+  margin-right: 3vmax;
+}
+
+.cadastro {
+  background-color: #9C5C5C;
+  width: 100%;
+  height: 10vmax;
+}
+
+
+/*Rodapé*/
+
+.rodape {
+  width: 100%;
+  height: 20vmax;
+}
+
+.barra {
   background-color: #730501;
+  width: 100%;
+  height: 6vmax;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.1vmax;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.barra p {
+  margin-top: 2.5vmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  
+  /*Simbolos*/
+  nav li .material-icons-outlined {
+  font-size: 2.2vmax;
+}
+
+
+  /* Banner em dispositivos menores */
+  .banner-principal {
+    height: 60vmin;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /*DESTAQUES DA SEMANA*/
+.topicos {
+  gap: 0.5vmax;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.topicos h1 {
+  font-size: 1.9vmax; 
+  text-align: center;
+}
+
+.topicos > .linha {
+  width: 30vw;  
+  height: 0.1vh;
+}
+.topicos > .linha2 {
+  width: 36vw;
+  height: 0.1vh;
+}
+
+/*Cards*/
+.card-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-top: 3vmax;
+  gap: 2vmax;
+}
+.card {
+  border: 0.1px solid #000000;
+}
+.card1 {
+  margin-left: 2vmax;
+}
+.card2 {
+  margin-left: 0.6vmax;
+}
+.card3 {
+  margin-left: 3vmax;
+}
+.card4 {
+  margin-left: 2vmax;
+}
+.card5 {
+  margin-left: 3vmax;
+}
+.card6 {
+  margin-left: 3.5vmax;
+}
+
+/*Insta Cards*/
+.instagram-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 2vmax;
+}
+.radu h1 {
+  font-size: 2.3vmax; 
+}
+
+.instagram-cards img {
+  width: 13vmax;
+  height: 19vmax;
+}
+
+/*Sobre a Radu*/
+.sobre {
+  width: 100%;
+  height: 30vmax;
+}
+.loja img {
+  width: 32vmax;
+  height: 20vmax;
+  margin-top: 3vmax;
+  margin-left: 4vmax;
+}
+.texto h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2vmax;
+  text-align: center;
+  margin-top: 2vmax;
+  margin-bottom: 1vmax;
+}
+.texto p {
+  font-size: 1.6vmax;
+  margin-left: 2vmax;
+  margin-right: 2vmax;
+}
+
 }
