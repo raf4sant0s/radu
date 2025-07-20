@@ -10,6 +10,10 @@
 /*Fonte Lexend*/
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
+/*Fonte Arsenal*/
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 
 /*Configurações Gerais*/
 * {
@@ -68,8 +72,10 @@ nav li:hover {
   cursor: pointer;
 }
 nav li .material-icons-outlined {
-  font-size: 2.2vmax;
+  font-size: 2vmax;
 }
+
+
 
 
 /*Banners*/
@@ -78,6 +84,7 @@ nav li .material-icons-outlined {
   height: 120vh;
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 
 .banner {
@@ -119,7 +126,7 @@ nav li .material-icons-outlined {
 }
 
 
-/* Conteúdo principal*/
+/*----Conteúdo principal----*/
 
 .topicos {
   display: flex;
@@ -148,7 +155,7 @@ nav li .material-icons-outlined {
   flex-wrap: nowrap;
 }
 
-
+/*Produtos*/
 .card-container {
   font-family: Arial, sans-serif;
   display: flex;
@@ -161,6 +168,7 @@ nav li .material-icons-outlined {
   height: 22vmax;
   overflow: hidden;
   border: 0.1px solid #000000;
+  cursor: pointer;
 }
 .card h3 {
   font-size: 1.2vmax;
@@ -211,6 +219,7 @@ nav li .material-icons-outlined {
   margin-top: 4vmax;
 }
 
+/*Radu no Instagram*/
 .radu h1 {
   font-family: "Arsenal SC", sans-serif;
   font-weight: 700;
@@ -221,6 +230,7 @@ nav li .material-icons-outlined {
   align-items: center;
   margin-bottom: 2vmax;
   margin-top: 7vmax;
+  cursor: pointer;
 }
 .instagram-cards {
   display: flex;
@@ -233,7 +243,7 @@ nav li .material-icons-outlined {
   height: 26vmax;
 }
 
-
+/*Loja Radu*/
 .sobre {
   display: flex;
   align-items: center;
@@ -267,20 +277,111 @@ nav li .material-icons-outlined {
   margin-right: 3vmax;
 }
 
+/*Cadastro*/
 .cadastro {
   background-color: #9C5C5C;
   width: 100%;
   height: 10vmax;
 }
+.inscrevase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vmax;
+  gap: 0.5vmax;
+}
+.inscrevase p {
+  margin-top: 1vmax;
+} 
+.inscrevase .material-icons-outlined {
+  font-size: 1.7vmax;
+  margin-top: 1vmax;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmax;
+  margin-top: 1vmax;
+}
+.boxes .email {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  width: 18.5vmax;
+  height: 2.5vmax;
+}
+.email p {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vmax;
+  color: #7a7a7a;
+  margin-left: 0.5vmax;
+}
+.boxes .cadastrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #323232;
+  border: 1px solid #000000;
+  width: 10vmax;
+  height: 2.5vmax;
+}
+.cadastrar p {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vmax;
+  color: #ffffff;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vmax;
+  margin-top: 0.5vmax;
+}
+.icons p {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vmax;
+  color: #000000;
+}
+.icon1 img {
+  width: 1.7vmax;
+  height: 1.7vmax;
+  margin-top: 0.5vmax;
+}
+.icon2 img {
+  width: 1.7vmax;
+  height: 1.7vmax;
+  margin-top: 0.5vmax;
+}
+.icon3 img {
+  width: 1.7vmax;
+  height: 1.7vmax;
+  margin-top: 0.5vmax;
+}
 
 
-/*Rodapé*/
+
+
+
+/*Footer*/
 
 .rodape {
   width: 100%;
   height: 20vmax;
 }
-
 .barra {
   background-color: #730501;
   width: 100%;
@@ -331,21 +432,20 @@ nav li .material-icons-outlined {
 
 
 @media (max-width: 768px) {
-  
-  /*Simbolos*/
-  nav li .material-icons-outlined {
-  font-size: 2.2vmax;
+
+/*Simbolos*/
+nav li .material-icons-outlined {
+  font-size: 2vmax;
 }
 
+/* Banner em dispositivos menores */
+.banner-principal {
+  height: 60vmin;
+  width: 100%;
+  object-fit: cover;
+}
 
-  /* Banner em dispositivos menores */
-  .banner-principal {
-    height: 60vmin;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  /*DESTAQUES DA SEMANA*/
+/*DESTAQUES DA SEMANA*/
 .topicos {
   gap: 0.5vmax;
   margin-top: 2rem;
@@ -358,7 +458,7 @@ nav li .material-icons-outlined {
 }
 
 .topicos > .linha {
-  width: 30vw;  
+  width: 30.1vw;  
   height: 0.1vh;
 }
 .topicos > .linha2 {
