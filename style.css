@@ -92,6 +92,74 @@ header {
   color: #ffffff;
 }
 
+/*Footer*/
+
+/*Esse footer é sem cor para o home*/
+.info {
+  width: 100%;
+  height: 20vmax;
+}
+/*E esse tem cor e é para todo o resto*/
+.info2 {
+  width: 100%;
+  height: 20vmax;
+  background-color: #ECE4E4;
+  margin-top: 7vmax;
+}
+/*Só isso mesmo, o resto abaixo continua o mesmo footer para todas as páginas*/
+.log img {
+  width: 10vmax;
+  height: 3.5vmax;
+  margin-top: 0.5vmax;
+  margin-left: 46vmax;
+}
+
+.textos {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vmax 10vmax;
+}
+.textos h4 {
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vmax;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vmax;
+}
+.textos p {
+  font-family: "Lekton", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vmax;
+}
+.pagamento {
+  display: table-column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pagamento img {
+  width: 4vmax;
+  height: 2.5vmax;
+}
+.barra {
+  background-color: #730501;
+  width: 100%;
+  height: 6vmax;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.1vmax;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 /*---------------Página Home - Coisas Específicas------------------*/
 
 /*Banners*/
@@ -390,68 +458,9 @@ header {
 }
 
 
-/*----------------Configurações Gerais--------------*/
 
-/*Footer*/
+/*------Páginas Banners - Coisas Gerais------*/
 
-.info {
-  width: 100%;
-  height: 20vmax;
-}
-.log img {
-  width: 10vmax;
-  height: 3.5vmax;
-  margin-top: 0.5vmax;
-  margin-left: 46vmax;
-}
-
-.textos {
-  display: flex;
-  justify-content: space-between;
-  padding: 1vmax 10vmax;
-}
-.textos h4 {
-  font-family: "Lexend Exa", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5vmax;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1vmax;
-}
-.textos p {
-  font-family: "Lekton", monospace;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.2vmax;
-}
-.pagamento {
-  display: table-column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.pagamento img {
-  width: 4vmax;
-  height: 2.5vmax;
-}
-.barra {
-  background-color: #730501;
-  width: 100%;
-  height: 6vmax;
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 250;
-  font-style: normal;
-  color: #ffffff;
-  font-size: 1.1vmax;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-/*---------------Páginas Banners - Coisas Gerais------------------------*/
 .title {
   text-align: center;
   flex-wrap: wrap;
@@ -474,6 +483,142 @@ header {
   text-transform: lowercase;
   margin-top: -1vmax;
 }
+
+.produtos {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 7vmax;
+  margin-top: 7vmax;
+}
+.produt {
+  width: 18vmax;
+  height: 22vmax;
+  overflow: hidden;
+  border: 0.1px solid #000000;
+  cursor: pointer;
+}
+.produt h3 {
+  font-size: 1.2vmax;
+  margin-bottom: 0.5vmax;
+  text-align: justify;
+  margin-left: 1.5vmax;
+  margin-top: 0.5vmax;
+}
+.produt p {
+  color: #5D5D5D;
+  font-size: 1.1vmax;
+  text-align: justify;
+  margin-left: 1.5vmax;
+}
+
+/*-- Las Femes -- Página --*/
+
+.produt1 {
+  width: 14vmax;
+  height: 12vmax;
+  margin-left: 2vmax;
+  margin-top: 4vmax;
+}
+.produt2 {
+  width: 14vmax;
+  height: 12vmax;
+  margin-left: 1.8vmax;
+  margin-top: 4vmax;
+}
+.produt3 {
+  width: 14vmax;
+  height: 14vmax;
+  margin-left: 2vmax;
+  margin-top: 1.8vmax;
+}
+.produt4 {
+  width: 13vmax;
+  height: 14vmax;
+  margin-left: 3vmax;
+  margin-top: 1.8vmax;
+}
+
+/*-- Los Hombres -- Página --*/
+
+.produ1 {
+  width: 14vmax;
+  height: 12vmax;
+  margin-left: 1.5vmax;
+  margin-top: 4vmax;
+}
+.produ2 {
+  width: 14vmax;
+  height: 12vmax;
+  margin-left: 1.8vmax;
+  margin-top: 4vmax;
+}
+.produ3 {
+  width: 13vmax;
+  height: 13vmax;
+  margin-left: 2vmax;
+  margin-top: 3vmax;
+}
+.produ4 {
+  width: 13vmax;
+  height: 14vmax;
+  margin-left: 2.3vmax;
+  margin-top: 1.8vmax;
+}
+
+/*-- New collection -- Página --*/
+
+.titulo {
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+.titulo h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vmax;
+  margin-top: 2vmax;
+}
+.titulo h4 {
+  font-family: "Lexend Zetta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.2vmax;
+  color: #730501;
+  text-transform: lowercase;
+  margin-top: -1vmax;
+}
+.titulo h2 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vmax;
+}
+
+.bags {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 7vmax;
+  margin-top: 5vmax;
+}
+.bag {
+  width: 18vmax;
+  height: 22vmax;
+  overflow: hidden;
+  border: 0.1px solid #000000;
+  cursor: pointer;
+}
+.bag img {
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 
@@ -621,10 +766,83 @@ nav li .material-icons-outlined {
   margin-right: 2vmax;
 }
 
-/*---------------Páginas Banners - Coisas Gerais------------------------*/
+/*--------------Banners-----------------*/
+.produtos {
+  flex-wrap: wrap;
+  gap: 7.2vmax;
+  margin-top: 7vmax;
+}
+.produt {
+  width: 22vmax;
+  height: 26vmax;
+}
+.produt h3 {
+  font-size: 1.5vmax;
+  margin-bottom: 0.5vmax;
+}
+.produt p {
+  font-size: 1.3vmax;
+}
 
+/*produtos da las femes*/
+.produt1 {
+  width: 18vmax;
+  height: 16vmax;
+  margin-left: 2vmax;
+  margin-top: 4vmax;
+}
+.produt2 {
+  width: 18vmax;
+  height: 16vmax;
+  margin-left: 1.8vmax;
+  margin-top: 4vmax;
+}
+.produt3 {
+  width: 18vmax;
+  height: 18vmax;
+  margin-left: 2vmax;
+  margin-top: 1.8vmax;
+}
+.produt4 {
+  width: 17vmax;
+  height: 18vmax;
+  margin-left: 3vmax;
+  margin-top: 1.8vmax;
+}
 
+/*produtos dos los hombres*/
+.produ1 {
+  width: 20vmax;
+  height: 16vmax;
+  margin-left: 0vmax;
+}
+.produ2 {
+  width: 20vmax;
+  height: 16vmax;
+}
+.produ3 {
+  width: 18vmax;
+  height: 17vmax;
+}
+.produ4 {
+  width: 17vmax;
+  height: 18vmax;
+}
 
+/*produtos new collection*/
+.bags {
+  flex-wrap: wrap;
+  gap: 7.2vmax;
+  margin-top: 5vmax;
+}
+.bag {
+  width: 22vmax;
+  height: 26vmax;
+}
+.bag img {
+  width: 100%;
+  height: 100%;
+}
 
 
 
