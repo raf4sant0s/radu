@@ -22,6 +22,12 @@
 /*Lexend Zetta*/
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
 
+/*Junge*/
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+
+/*Lexend Mega*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=swap');
+
 
 
 
@@ -490,7 +496,7 @@ header {
   justify-content: center;
   flex-wrap: nowrap;
   gap: 7vmax;
-  margin-top: 7vmax;
+  margin-top: 6vmax;
 }
 .produt {
   width: 18vmax;
@@ -618,7 +624,101 @@ header {
   height: 100%;
 }
 
+/*------------------PÁGINA NOVIDADES ------------------*/
 
+.letreiro {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5vmax;
+}
+.novidades h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vmax;
+}
+.new {
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5vmax;
+  color: #730501;
+  margin-top: 2vmax;
+  margin-left: -0.6vmax;
+}
+.buzios {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1vmax;
+}
+.buzios h1 {
+  font-family: "Junge", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5vmax;
+  color: #021846;
+}
+.buzios h2 {
+  font-family: "Lexend Mega", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 3vmax;
+  color: #021846;
+}
+
+.prod1 {
+  width: 16vmax;
+  height: 14vmax;
+  margin-left: 1vmax;
+  margin-top: 2vmax;
+}
+.prod2 {
+  width: 16vmax;
+  height: 14vmax;
+  margin-left: 1vmax;
+  margin-top: 2vmax;
+}
+.prod3 {
+  width: 16vmax;
+  height: 16vmax;
+  margin-left: 1vmax;
+}
+.prod4 {
+  width: 12vmax;
+  height: 9vmax;
+  margin-left: 3vmax;
+  margin-bottom: 1vmax;
+  margin-top: 6vmax;
+}
+.prod5 {
+  width: 12vmax;
+  height: 11vmax;
+  margin-left: 2.5vmax;
+  margin-top: 5vmax;
+}
+.prod6 {
+  width: 12vmax;
+  height: 7vmax;
+  margin-left: 3vmax;
+  margin-top: 9vmax;
+}
+.prod7 {
+  width: 13vmax;
+  height: 8vmax;
+  margin-left: 2vmax;
+  margin-top: 8vmax;
+}
+.prod8 {
+  width: 13vmax;
+  height: 8vmax;
+  margin-left: 3vmax;
+  margin-bottom: 0.5vmax;
+  margin-top: 7.5vmax;
+}
 
 
 
@@ -665,7 +765,7 @@ nav li .material-icons-outlined {
 
 
 
-/*---------------Página Home - Coisas Específicas------------------*/
+/*------Página Home - Coisas Específicas-------*/
 
 /* Banner em dispositivos menores */
 .banner-principal {
@@ -766,7 +866,8 @@ nav li .material-icons-outlined {
   margin-right: 2vmax;
 }
 
-/*--------------Banners-----------------*/
+
+/*------------Páginas Banners----------------*/
 .produtos {
   flex-wrap: wrap;
   gap: 7.2vmax;
@@ -845,10 +946,6 @@ nav li .material-icons-outlined {
 }
 
 
-
-
-
-/*---------------Página Las Femes - Coisas Específicas------------------*/
 
 
 
