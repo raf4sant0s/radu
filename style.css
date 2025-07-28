@@ -721,6 +721,160 @@ header {
 }
 
 
+/*------------------PÁGINA FEMININO ------------------*/
+
+.letreiro {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5vmax;
+}
+.feminino h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6vmax;
+}
+.woman {
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2vmax;
+  color: #730501;
+  margin-top: 4vmax;
+  margin-left: -1vmax;
+}
+
+.pro1 {
+  width: 13vmax;
+  height: 14vmax;
+  margin-left: 2.5vmax;
+  margin-top: 2vmax;
+}
+.pro2 {
+  width: 11vmax;
+  height: 15vmax;
+  margin-left: 3.5vmax;
+  margin-top: 1vmax;
+}
+.pro3 {
+  width: 11vmax;
+  height: 11vmax;
+  margin-left: 3vmax;
+  margin-top: 5vmax;
+}
+.pro4 {
+  width: 15vmax;
+  height: 13vmax;
+  margin-left: 1.5vmax;
+  margin-top: 3vmax;
+}
+.pro5 {
+  width: 15vmax;
+  height: 7vmax;
+  margin-left: 1vmax;
+  margin-top: 9vmax;
+}
+.pro6 {
+  width: 16vmax;
+  height: 7vmax;
+  margin-left: 1vmax;
+  margin-top: 9vmax;
+}
+.pro7 {
+  width: 15vmax;
+  height: 6vmax;
+  margin-left: 1vmax;
+  margin-top: 10vmax;
+}
+.pro8 {
+  width: 15vmax;
+  height: 6vmax;
+  margin-left: 1vmax;
+  margin-top: 10vmax;
+}
+.pro9 {
+  width: 15vmax;
+  height: 9vmax;
+  margin-left: 1vmax;
+  margin-top: 7vmax;
+}
+.pro10 {
+  width: 13vmax;
+  height: 12vmax;
+  margin-left: 2vmax;
+  margin-top: 4vmax;
+}
+.pro11 {
+  width: 13vmax;
+  height: 10vmax;
+  margin-left: 3vmax;
+  margin-top: 6vmax;
+}
+.pro12 {
+  width: 15vmax;
+  height: 9vmax;
+  margin-left: 1vmax;
+  margin-top: 7vmax;
+}
+.pro13 {
+  width: 11vmax;
+  height: 14vmax;
+  margin-left: 3vmax;
+  margin-top: 2vmax;
+}
+.pro14 {
+  width: 14vmax;
+  height: 6vmax;
+  margin-left: 2vmax;
+  margin-top: 10vmax;
+}
+.pro15 {
+  width: 15vmax;
+  height: 8vmax;
+  margin-left: 1vmax;
+  margin-top: 8vmax;
+}
+.pro16 {
+  width: 15vmax;
+  height: 5vmax;
+  margin-left: 1.5vmax;
+  margin-top: 11vmax;
+}
+.pro17 {
+  width: 14vmax;
+  height: 10vmax;
+  margin-left: 1.5vmax;
+  margin-top: 6vmax;
+}
+.pro18 {
+  width: 14vmax;
+  height: 8vmax;
+  margin-left: 2vmax;
+  margin-top: 8vmax;
+}
+.pro19 {
+  width: 13vmax;
+  height: 9vmax;
+  margin-left: 2vmax;
+  margin-top: 7vmax;
+}
+.pro20 {
+  width: 14vmax;
+  height: 10vmax;
+  margin-left: 2vmax;
+  margin-top: 6vmax;
+}
+
+/*------------------ PÁGINA MASCULINO ------------------*/
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
 
@@ -945,9 +1099,180 @@ nav li .material-icons-outlined {
   height: 100%;
 }
 
+.prod1 {
+  width: 20vmax;
+  height: 18vmax;
+  margin-left: 1vmax;
+  margin-top: 1vmax;
+}
+.prod2 {
+  width: 20vmax;
+  height: 18vmax;
+  margin-left: 1.5vmax;
+  margin-top: 1vmax;
+}
+.prod3 {
+  width: 18vmax;
+  height: 18vmax;
+  margin-left: 1vmax;
+  margin-top: 1vmax;
+}
+.prod4 {
+  width: 16vmax;
+  height: 11vmax;
+  margin-left: 3vmax;
+  margin-bottom: 1vmax;
+  margin-top: 7vmax;
+}
+.prod5 {
+  width: 16vmax;
+  height: 15vmax;
+  margin-left: 2.5vmax;
+  margin-top: 4vmax;
+}
+.prod6 {
+  width: 15vmax;
+  height: 10vmax;
+  margin-left: 3.5vmax;
+  margin-top: 9vmax;
+}
+.prod7 {
+  width: 15vmax;
+  height: 10vmax;
+  margin-left: 3vmax;
+  margin-top: 9vmax;
+}
+.prod8 {
+  width: 16vmax;
+  height: 11vmax;
+  margin-left: 3vmax;
+  margin-bottom: 0.5vmax;
+  margin-top: 7.5vmax;
+}
 
 
+/*----------------Página Feminino------------------*/
 
+.pro1 {
+  width: 16vmax;
+  height: 17vmax;
+  margin-left: 3vmax;
+  margin-top: 2vmax;
+}
+.pro2 {
+  width: 13vmax;
+  height: 17vmax;
+  margin-left: 4vmax;
+  margin-top: 2vmax;
+}
+.pro3 {
+  width: 14vmax;
+  height: 14vmax;
+  margin-left: 4vmax;
+  margin-top: 5vmax;
+}
+.pro4 {
+  width: 17vmax;
+  height: 15vmax;
+  margin-left: 2vmax;
+  margin-top: 4vmax;
+}
+.pro5 {
+  width: 18vmax;
+  height: 8vmax;
+  margin-left: 2vmax;
+  margin-top: 11vmax;
+}
+.pro6 {
+  width: 18vmax;
+  height: 8vmax;
+  margin-left: 2vmax;
+  margin-top: 11vmax;
+}
+.pro7 {
+  width: 18vmax;
+  height: 7vmax;
+  margin-left: 2vmax;
+  margin-top: 12vmax;
+}
+.pro8 {
+  width: 18vmax;
+  height: 7vmax;
+  margin-left: 2vmax;
+  margin-top: 12vmax;
+}
+.pro9 {
+  width: 19vmax;
+  height: 12vmax;
+  margin-left: 1vmax;
+  margin-top: 7vmax;
+}
+.pro10 {
+  width: 16vmax;
+  height: 15vmax;
+  margin-left: 2vmax;
+  margin-top: 4vmax;
+}
+.pro11 {
+  width: 17vmax;
+  height: 13vmax;
+  margin-left: 2vmax;
+  margin-top: 6vmax;
+}
+.pro12 {
+  width: 19vmax;
+  height: 12vmax;
+  margin-left: 1vmax;
+  margin-top: 7vmax;
+}
+.pro13 {
+  width: 13vmax;
+  height: 17vmax;
+  margin-left: 4vmax;
+  margin-top: 2vmax;
+}
+.pro14 {
+  width: 18vmax;
+  height: 8vmax;
+  margin-left: 2vmax;
+  margin-top: 11vmax;
+}
+.pro15 {
+  width: 18vmax;
+  height: 10vmax;
+  margin-left: 2vmax;
+  margin-top: 9vmax;
+}
+.pro16 {
+  width: 19vmax;
+  height: 6vmax;
+  margin-left: 1.5vmax;
+  margin-top: 13vmax;
+}
+.pro17 {
+  width: 18vmax;
+  height: 13vmax;
+  margin-left: 1.5vmax;
+  margin-top: 6vmax;
+}
+.pro18 {
+  width: 19vmax;
+  height: 11vmax;
+  margin-left: 1vmax;
+  margin-top: 8vmax;
+}
+.pro19 {
+  width: 17vmax;
+  height: 13vmax;
+  margin-left: 2vmax;
+  margin-top: 6vmax;
+}
+.pro20 {
+  width: 17vmax;
+  height: 13vmax;
+  margin-left: 2vmax;
+  margin-top: 6vmax;
+}
 
 
 
