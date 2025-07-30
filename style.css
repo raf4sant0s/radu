@@ -7,10 +7,10 @@
 /*Fonte do Radu no Instagram*/
 @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*Fonte Lexend*/
+/*Lexend*/
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
-/*Fonte Arsenal*/
+/*Arsenal*/
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /*Lexend Exa*/
@@ -28,7 +28,11 @@
 /*Lexend Mega*/
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=swap');
 
+/*Lexend Deca*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
+/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 /*----------------Configurações Gerais--------------*/
@@ -392,31 +396,30 @@ header {
   margin-top: 1vmax;
 }
 
-.boxes {
+.fieldset {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5vmax;
   margin-top: 1vmax;
+  border: none;
 }
-.boxes .email {
+.email input{
   display: flex;
   align-items: center;
-  justify-content: start;
   background-color: #ffffff;
   border: 1px solid #000000;
   width: 18.5vmax;
   height: 2.5vmax;
-}
-.email p {
   font-family: "Arsenal", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2vmax;
+  font-size: 1.3vmax;
   color: #7a7a7a;
-  margin-left: 0.5vmax;
+  padding-left: 0.5vmax;
 }
-.boxes .cadastrar {
+
+.cadastrar button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -424,13 +427,12 @@ header {
   border: 1px solid #000000;
   width: 10vmax;
   height: 2.5vmax;
-}
-.cadastrar p {
   font-family: "Arsenal SC", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2vmax;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .icons {
@@ -451,16 +453,19 @@ header {
   width: 1.7vmax;
   height: 1.7vmax;
   margin-top: 0.5vmax;
+  cursor: pointer;
 }
 .icon2 img {
   width: 1.7vmax;
   height: 1.7vmax;
   margin-top: 0.5vmax;
+  cursor: pointer;
 }
 .icon3 img {
   width: 1.7vmax;
   height: 1.7vmax;
   margin-top: 0.5vmax;
+  cursor: pointer;
 }
 
 
@@ -1074,6 +1079,110 @@ header {
 
 /*---------------------- PÁGINA CONTA ----------------------*/
 
+.acesse{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vmax;
+  margin-bottom: 4vmax;
+}
+.acesse h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3vmax;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.EMAIL input {
+  width: 65vmax;
+  height: 4vmax;
+  padding-left: 1vmax;
+  margin-bottom: 2vmax;
+}
+.senha input {
+  width: 65vmax;
+  height: 4vmax;
+  padding-left: 1vmax;
+  margin-bottom: 0.5vmax;
+}
+.senhaa {
+  display: flex;
+  justify-content: end;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4vmax;
+  gap: 0.5vmax;
+  margin-right: 1vmax;
+  
+}
+.senhaa .recuperar {
+  color: #730501;
+}
+
+.button1 button {
+  width: 65vmax;
+  height: 4vmax;
+  margin-top: 4vmax;
+  border-radius: 0%;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+}
+
+.ouu {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vmax;
+  gap: 1.2vmax;
+}
+.line1 {
+  width: 30vmax;
+  height: 0.1vmax;
+  background-color: #707070;
+  display: flex;
+  margin-top: 1.2vmax;
+}
+.ou {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.line2 {
+  width: 30vmax;
+  height: 0.1vmax;
+  background-color: #707070;
+  display: flex;
+  margin-top: 1.2vmax;
+}
+.button2 button {
+  width: 65vmax;
+  height: 4vmax;
+  margin-top: 4vmax;
+  margin-bottom: 4vmax;
+  border-radius: 0%;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+}
+
+
+
+/*---------------------- PÁGINA CARRINHO ----------------------*/
 
 
 

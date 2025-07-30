@@ -3,19 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <title>RADU - Calçados Bolsas e Acessórios</title>
 </head>
 <body>
     <header>
-        
+        <div class="logo"><a href="index.html"><h1>RADU</h1></a></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="novidades.html">Novidades</a></li>
+                    <li><a href="feminino.html">Feminino</li></a>
+                    <li><a href="masculino.html">Masculino</li></a>
+                    <li><a href="lifestyle.html">Lifestyle</li></a>
+                    <li><a href="conta.html"><span class="material-icons-outlined">person_outline</span></a></li>
+                    <li><a href="carrinho.html"><span class="material-icons-outlined">shopping_bag</span></a></li>
+                </ul>
+            </div>
     </header>
 
     <main>
+        <div class="acesse"><h1>Acesse sua conta</h1></div>
 
+        <section class="container">
+            <form>
+                <div class="EMAIL">
+                    <input type="email" id="email" name="EMAIL" placeholder="E-mail, CPF ou CNPJ" required>
+                </div>
+
+                <div class="senha">
+                    <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                </div>
+
+                <div class="senhaa">
+                Esqueceu sua senha?<p class="recuperar">Recuperar</p>
+                </div>
+
+                <div class="button1">
+                    <button>ENTRAR</button>
+                </div>
+
+                <div class="ouu">
+                    <div class="line1"></div>
+                    <div class="ou"><p>OU</p></div>
+                    <div class="line2"></div>
+                </div>
+
+                <div class="button2">
+                    <button onclick="alert('Indo para tela de cadastro...')">PRIMEIRO ACESSO? CADASTRE-SE</button>
+                </div>
+            </form>
+
+        </section>
+        
     </main>
 
     <footer>
+        <section class="info2">
+            <div class="log"><img src="home/logo.png" alt="logo"></div>
+            <div class="textos">
+                <div class="institucional">
+                    <h4>INSTITUCIONAL</h4>
+                    <p>POLÍTICA DE PRIVACIDADE <br> POLÍTICA DE TROCA E DEVOLUÇÃO <br> A MARCA <br> PERGUNTAS FREQUENTES</p>
+                </div>
+                <div class="contato">
+                    <h4>CONTATO</h4>
+                    <p>+55 51 999000251 <br> DE SEGUNDA À SEXTA-FEIRA: <br> DAS 8 ÀS 17H <br> FALE CONOSCO</p>
+                </div>
+                <div class="pagamento">
+                    <h4>FORMAS DE PAGAMENTO</h4>
+                    <img src="home/cartao1.png">
+                    <img src="home/cartao2.png">
+                    <img src="home/cartao3.png">
+                    <img src="home/cartao4.png"><br>
+                    <img src="home/cartao5.png">
+                    <img src="home/cartao6.png">
+                </div>
+            </div>
+        </section>
 
+        <section class="barra">
+            <p>®2025 RADU. Todos os direitos reservados.</p>
+        </section>
     </footer>
 </body>
 </html>
