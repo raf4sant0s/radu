@@ -723,11 +723,6 @@ header {
 
 /*------------------PÁGINA FEMININO ------------------*/
 
-.letreiro {
-  display: flex;
-  justify-content: center;
-  margin-top: 1.5vmax;
-}
 .feminino h1 {
   font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
@@ -867,6 +862,219 @@ header {
 }
 
 /*------------------ PÁGINA MASCULINO ------------------*/
+
+
+.masculino h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6vmax;
+}
+.man {
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2vmax;
+  color: #730501;
+  margin-top: 4vmax;
+  margin-left: -1.3vmax;
+}
+
+
+.pr1 {
+  width: 13vmax;
+  height: 14vmax;
+  margin-left: 2.5vmax;
+  margin-top: 2vmax;
+}
+.pr2 {
+  width: 11vmax;
+  height: 8vmax;
+  margin-left: 3vmax;
+  margin-top: 8vmax;
+}
+.pr3 {
+  width: 16vmax;
+  height: 13vmax;
+  margin-left: 1vmax;
+  margin-top: 3vmax;
+}
+.pr4 {
+  width: 15vmax;
+  height: 13vmax;
+  margin-left: 1.5vmax;
+  margin-top: 3vmax;
+}
+.pr5 {
+  width: 16vmax;
+  height: 6vmax;
+  margin-left: 1vmax;
+  margin-top: 10vmax;
+}
+.pr6 {
+  width: 16vmax;
+  height: 7vmax;
+  margin-left: 1vmax;
+  margin-top: 9vmax;
+}
+.pr7 {
+  width: 15vmax;
+  height: 12vmax;
+  margin-left: 1vmax;
+  margin-top: 4vmax;
+}
+.pr8 {
+  width: 14vmax;
+  height: 10vmax;
+  margin-left: 2vmax;
+  margin-top: 6vmax;
+}
+.pr9 {
+  width: 15vmax;
+  height: 6.5vmax;
+  margin-left: 1vmax;
+  margin-top: 9.5vmax;
+}
+.pr10 {
+  width: 18vmax;
+  height: 12vmax;
+  margin-top: 4vmax;
+}
+.pr11 {
+  width: 15vmax;
+  height: 9vmax;
+  margin-left: 1.5vmax;
+  margin-top: 7vmax;
+}
+.pr12 {
+  width: 16vmax;
+  height: 9vmax;
+  margin-left: 1vmax;
+  margin-top: 7vmax;
+}
+.pr13 {
+  width: 11vmax;
+  height: 14vmax;
+  margin-left: 3vmax;
+  margin-top: 2vmax;
+}
+.pr14 {
+  width: 16vmax;
+  height: 6vmax;
+  margin-left: 1vmax;
+  margin-top: 10vmax;
+}
+.pr15 {
+  width: 18vmax;
+  height: 6vmax;
+  margin-top: 10vmax;
+}
+.pr16 {
+  width: 17vmax;
+  height: 7vmax;
+  margin-left: 1vmax;
+  margin-top: 9vmax;
+}
+.pr17 {
+  width: 14vmax;
+  height: 10vmax;
+  margin-left: 2vmax;
+  margin-top: 6vmax;
+}
+.pr18 {
+  width: 18vmax;
+  height: 8vmax;
+  margin-top: 8vmax;
+}
+.pr19 {
+  width: 17vmax;
+  height: 9vmax;
+  margin-left: 0.5vmax;
+  margin-top: 7vmax;
+}
+.pr20 {
+  width: 15vmax;
+  height: 10vmax;
+  margin-left: 1.5vmax;
+  margin-top: 6vmax;
+}
+
+
+
+/*------------------ PÁGINA LIFESTYLE ------------------*/
+
+.life h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7vmax;
+}
+.ra {
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2vmax;
+  color: #730501;
+  margin-top: 5.3vmax;
+  margin-left: -0.7vmax;
+}
+
+.p1 {
+  width: 10vmax;
+  height: 7vmax;
+  margin-left: 4vmax;
+  margin-top: 9vmax;
+}
+.p2 {
+  width: 16vmax;
+  height: 4vmax;
+  margin-left: 1vmax;
+  margin-top: 12vmax;
+}
+.p3 {
+  width: 10vmax;
+  height: 10vmax;
+  margin-left: 4vmax;
+  margin-top: 6vmax;
+}
+.p4 {
+  width: 7vmax;
+  height: 15vmax;
+  margin-left: 5.5vmax;
+  margin-top: 1vmax;
+}
+.p5 {
+  width: 12vmax;
+  height: 14vmax;
+  margin-left: 2.5vmax;
+  margin-top: 2vmax;
+}
+.p6 {
+  width: 14vmax;
+  height: 9vmax;
+  margin-left: 2vmax;
+  margin-top: 6vmax;
+}
+.p7 {
+  width: 8vmax;
+  height: 13vmax;
+  margin-left: 4vmax;
+  margin-top: 3vmax;
+}
+.p8 {
+  width: 11vmax;
+  height: 14vmax;
+  margin-left: 3vmax;
+  margin-top: 2vmax;
+}
+
+
+
+/*---------------------- PÁGINA CONTA ----------------------*/
+
+
 
 
 
