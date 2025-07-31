@@ -434,7 +434,11 @@ header {
   color: #ffffff;
   cursor: pointer;
 }
-
+.cadastrar button:hover {
+  color: #323232;
+  background-color: #ffffff; 
+  border: 1px solid #323232;
+}
 .icons {
   display: flex;
   align-items: center;
@@ -466,6 +470,10 @@ header {
   height: 1.7vmax;
   margin-top: 0.5vmax;
   cursor: pointer;
+}
+.icons img:hover {
+  background-color: #904848;
+  border-radius: 3px;
 }
 
 
@@ -1079,6 +1087,7 @@ header {
 
 /*---------------------- PÁGINA CONTA ----------------------*/
 
+/*titulo*/
 .acesse{
   display: flex;
   justify-content: center;
@@ -1092,7 +1101,7 @@ header {
   font-style: normal;
   font-size: 3vmax;
 }
-
+/*Preenchimento de dados*/
 .container {
   display: flex;
   justify-content: center;
@@ -1119,12 +1128,15 @@ header {
   font-size: 1.4vmax;
   gap: 0.5vmax;
   margin-right: 1vmax;
-  
 }
 .senhaa .recuperar {
   color: #730501;
+  cursor: pointer;
 }
-
+.recuperar:hover {
+  color: #ff0000;
+}
+/*botões pretos grandes e linha*/
 .button1 button {
   width: 65vmax;
   height: 4vmax;
@@ -1136,9 +1148,14 @@ header {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  border: none;
+  border: none; 
+  cursor: pointer;
 }
-
+.button1 button:hover {
+  color: #000000;
+  background-color: #ffffff; 
+  border: 0.5px solid #000000;
+}
 .ouu {
   display: flex;
   justify-content: center;
@@ -1178,18 +1195,254 @@ header {
   font-weight: 500;
   font-style: normal;
   border: none;
+  cursor: pointer;
+}
+.button2 button:hover {
+  color: #000000;
+  background-color: #ffffff; 
+  border: 0.5px solid #000000;
 }
 
 
 
 /*---------------------- PÁGINA CARRINHO ----------------------*/
 
+/*tudo*/
+.everything {
+  display: flex;
+  justify-content: center;
+  gap: 2vmax;
+}
 
+/*quadrado que diz sacola vazia*/
+.sacola-cep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.sacola {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vmax;
+  height: 10vmax;
+  border: 0.5px solid #000000;
+  color: #8D8D8D;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3vmax;
+  margin-bottom: 9.5vmax;
+}
+.sacola .material-icons-outlined {
+  font-size: 4vmax;
+}
 
+/*parágrafo antes do preenchimento do cep*/
+.entrega {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1vmax;
+}
+.entrega h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3vmax;
+}
+.entrega h2 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.1vmax;
+}
 
+/* colocar o cep*/
+.cep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.cep h3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vmax;
+  margin-bottom: 0.5vmax;
+}
+.cep input {
+  width: 30vmax;
+  height: 4vmax;
+  border-radius: 0%;
+  border: 0.5px solid #000000;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vmax;
+  padding-left: 1vmax;
+}
+.cep button {
+  width: 9.5vmax;
+  height: 4vmax;
+  border-radius: 0%;
+  border: 0.5px solid #000000;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3vmax;
+  cursor: pointer;
+}
+.cep button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.cep h4 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1vmax;
+  color: #730501;
+  margin-top: 0.5vmax;
+  cursor: pointer;
+}
+.cep h4:hover {
+  color: #ff0800;
+}
 
-
-
+/*quadrado que mostra o preço e cupom, e pra finalizar*/
+.compra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #000000;
+  width: 35vmax;
+  height: 30.5vmax;
+  gap: 1vmax;
+}
+.compra h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vmax;
+  margin-right: 5vmax;
+}
+.codigo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.codigo input {
+  width: 20vmax;
+  height: 4vmax;
+  border-radius: 0%;
+  border: 0.5px solid #8D8D8D;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4vmax;
+  padding-left: 1vmax;
+}
+.codigo button {
+  width: 9.5vmax;
+  height: 4vmax;
+  border-radius: 0%;
+  border: 0.5px solid #000000;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4vmax;
+  cursor: pointer;
+}
+.codigo button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+.precoo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19vmax;
+  margin-top: 1vmax;
+}
+.precoo p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4vmax;
+}
+.precoo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21vmax;
+  margin-top: 1vmax;
+}
+.precoo2 p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4vmax;
+}
+.finalizar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vmax;
+}
+.finalizar button {
+  width: 30vmax;
+  height: 4vmax;
+  border-radius: 0%;
+  border: 0;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4vmax;
+  cursor: pointer;
+}
+.finalizar button:hover {
+  border: 0.5px solid #000000;
+  color: #000000;
+  background-color: #ffffff;
+}
+.finalizar p {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4vmax;
+  color: #730501;
+  margin-top: 1vmax;
+  cursor: pointer;
+}
+.finalizar p:hover {
+  color: #ff0800;
+}
 
 
 
@@ -1592,11 +1845,303 @@ nav li .material-icons-outlined {
 }
 
 
+/*----------------Página Masculino------------------*/
+
+.pr1 {
+  width: 16vmax;
+  height: 17vmax;
+  margin-left: 3vmax;
+  margin-top: 2vmax;
+}
+.pr2 {
+  width: 15vmax;
+  height: 11vmax;
+  margin-left: 3vmax;
+  margin-top: 8vmax;
+}
+.pr3 {
+  width: 20vmax;
+  height: 16vmax;
+  margin-left: 1vmax;
+  margin-top: 3vmax;
+}
+.pr4 {
+  width: 20vmax;
+  height: 16vmax;
+  margin-left: 1vmax;
+  margin-top: 3vmax;
+}
+.pr5 {
+  width: 20vmax;
+  height: 8vmax;
+  margin-left: 1vmax;
+  margin-top: 11vmax;
+}
+.pr6 {
+  width: 20vmax;
+  height: 9vmax;
+  margin-left: 1vmax;
+  margin-top: 10vmax;
+}
+.pr7 {
+  width: 18vmax;
+  height: 15vmax;
+  margin-left: 1vmax;
+  margin-top: 4vmax;
+}
+.pr8 {
+  width: 18vmax;
+  height: 14vmax;
+  margin-left: 2vmax;
+  margin-top: 5vmax;
+}
+.pr9 {
+  width: 20vmax;
+  height: 9vmax;
+  margin-left: 1vmax;
+  margin-top: 10vmax;
+}
+.pr10 {
+  width: 20vmax;
+  height: 15vmax;
+  margin-left: 1vmax;
+  margin-top: 4vmax;
+}
+.pr11 {
+  width: 19vmax;
+  height: 11vmax;
+  margin-left: 1.5vmax;
+  margin-top: 8vmax;
+}
+.pr12 {
+  width: 20vmax;
+  height: 12vmax;
+  margin-left: 1vmax;
+  margin-top: 7vmax;
+}
+.pr13 {
+  width: 14vmax;
+  height: 17vmax;
+  margin-left: 4vmax;
+  margin-top: 2vmax;
+}
+.pr14 {
+  width: 20vmax;
+  height: 8vmax;
+  margin-left: 1vmax;
+  margin-top: 11vmax;
+}
+.pr15 {
+  width: 22vmax;
+  height: 7vmax;
+  margin-top: 12vmax;
+}
+.pr16 {
+  width: 22vmax;
+  height: 12vmax;
+  margin-top: 7vmax;
+}
+.pr17 {
+  width: 18vmax;
+  height: 14vmax;
+  margin-left: 2vmax;
+  margin-top: 5vmax;
+}
+.pr18 {
+  width: 22vmax;
+  height: 10vmax;
+  margin-top: 9vmax;
+}
+.pr19 {
+  width: 21vmax;
+  height: 10vmax;
+  margin-left: 0.5vmax;
+  margin-top: 9vmax;
+}
+.pr20 {
+  width: 22vmax;
+  height: 13vmax;
+  margin-left: -0.5vmax;
+  margin-top: 6vmax;
+}
 
 
 
+/*----------------Página Lifestyle------------------*/
+
+.p1 {
+  width: 16vmax;
+  height: 11vmax;
+  margin-left: 3vmax;
+  margin-top: 8vmax;
+}
+.p2 {
+  width: 22vmax;
+  height: 7vmax;
+  margin-left: 0vmax;
+  margin-top: 12vmax;
+}
+.p3 {
+  width: 14vmax;
+  height: 14vmax;
+  margin-left: 4vmax;
+  margin-top: 5vmax;
+}
+.p4 {
+  width: 9vmax;
+  height: 18vmax;
+  margin-left: 6vmax;
+  margin-top: 1vmax;
+}
+.p5 {
+  width: 14vmax;
+  height: 16vmax;
+  margin-left: 3.5vmax;
+  margin-top: 3vmax;
+}
+.p6 {
+  width: 17vmax;
+  height: 11vmax;
+  margin-left: 2vmax;
+  margin-top: 8vmax;
+}
+.p7 {
+  width: 10vmax;
+  height: 16vmax;
+  margin-left: 6vmax;
+  margin-top: 3vmax;
+}
+.p8 {
+  width: 14vmax;
+  height: 17vmax;
+  margin-left: 4vmax;
+  margin-top: 2vmax;
+}
 
 
 
+/*-------------------Página Conta--------------------*/
 
+/*Preenchimento de dados*/
+
+.EMAIL input {
+  margin-top: 2vmax;
+  margin-bottom: 3.7vmax;
+}
+.senha input {
+  margin-bottom: 1vmax;
+}
+
+/*botões pretos grandes e linhas*/
+.button1 button {
+  margin-top: 6vmax;
+}
+.ouu {
+  margin-top: 5vmax;
+  margin-bottom: 1vmax;
+}
+.line1 {
+  width: 29vmax;
+  margin-top: 1.4vmax;
+}
+.line2 {
+  width: 29vmax;
+  margin-top: 1.4vmax;
+}
+
+
+
+/*-------------------Página Carrinho--------------------*/
+
+.everything {
+  gap: 0vmax;
+  margin-bottom: 10vmax;
+}
+
+/*quadrado que diz sacola vazia*/
+.sacola {
+  width: 32vmax;
+  height: 10vmax;
+  font-size: 1.5vmax;
+  margin-bottom: 14vmax;
+  margin-left: 2vmax;
+  margin-top: 2vmax;
+}
+.sacola .material-icons-outlined {
+  font-size: 5vmax;
+}
+
+/*parágrafo antes do preenchimento do cep*/
+.entrega {
+  gap: 1vmax;
+  margin-left: 3vmax;
+}
+.entrega h1 {
+  font-size: 1.8vmax;
+}
+.entrega h2 {
+  font-size: 1.5vmax;
+  margin-right: 4vmax;
+  margin-bottom: 1vmax;
+}
+
+/* colocar o cep*/
+.cep h3 {
+  font-size: 1.8vmax;
+  margin-bottom: 1vmax;
+}
+.cep input {
+  width: 21vmax;
+  height: 4vmax;
+}
+.cep h4 {
+  font-size: 1.3vmax;
+}
+
+/*quadrado que mostra o preço e cupom, e pra finalizar*/
+.compra {
+  width: 36vmax;
+  height: 40.5vmax;
+  margin-top: 2vmax;
+  margin-right: 2vmax;
+}
+.compra h1 {
+  font-size: 1.5vmax;
+  margin-right: 2vmax;
+  margin-bottom: 0.8vmax;
+}
+.codigo input {
+  width: 18vmax;
+}
+.codigo button {
+  width: 8vmax;
+  font-size: 1.4vmax;
+  margin-bottom: 1vmax;
+}
+
+.precoo {
+  gap: 14vmax;
+  margin-top: 2vmax;
+}
+.precoo p {
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+}
+.precoo2 {
+  gap: 18vmax;
+  margin-top: 1vmax;
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+  margin-bottom: 2vmax;
+}
+.finalizar {
+  margin-top: 1vmax;
+}
+.finalizar button {
+  width: 27vmax;
+  margin-left: 2vmax;
+  margin-right: 2vmax;
+}
+
+/*chaves que fecha o media*/
 }

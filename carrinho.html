@@ -25,13 +25,76 @@
     <main>
         <div class="acesse"><h1>SACOLA</h1></div>
 
-        <section>
-            
+        <section class="everything">
+            <section class="sacola-cep">
+                <div class="sacola">
+                    <span class="material-icons-outlined">shopping_bag</span>
+                    <p>Sua sacola está vazia</p>
+                </div>
+
+                <div class="entrega">
+                    <h1>Confira o prazo de entrega</h1>
+                    <h2>Veja as opções de entrega para seus itens, com todos os prazos e valores.</h2>
+                    <div class="cep">
+                        <h3>CEP</h3>
+                        <form>
+                            <input type="text" id="cep" name="cep" placeholder="00000-000" pattern="\d{5}-?\d{3}" required>
+                            <button type="submit">CALCULAR</button>
+                        </form>
+                        <h4>Não sei meu CEP</h4>
+                    </div>
+                </div>
+            </section>
+
+            <section class="compra">
+                <h1>Adicione seu cupom de desconto:</h1>
+                <div class="codigo">
+                    <form>
+                        <input type="text" id="codigo" name="codigo" placeholder="Código" required>
+                        <button type="submit">Adicionar</button>
+                    </form>
+                </div>
+                <div class="precoo">
+                    <p>Subtotal</p><p>R$ 00,00</p>
+                </div>
+                <div class="precoo2">
+                    <p>Total</p><p>R$ 00,00</p>
+                </div>
+                <div class="finalizar">
+                    <button type="submit">FINALIZAR COMPRA</button>
+                    <p>Continuar comprando</p>
+                </div>
+            </section>
         </section>
     </main>
 
     <footer>
+        <section class="info2">
+            <div class="log"><img src="home/logo.png" alt="logo"></div>
+            <div class="textos">
+                <div class="institucional">
+                    <h4>INSTITUCIONAL</h4>
+                    <p>POLÍTICA DE PRIVACIDADE <br> POLÍTICA DE TROCA E DEVOLUÇÃO <br> A MARCA <br> PERGUNTAS FREQUENTES</p>
+                </div>
+                <div class="contato">
+                    <h4>CONTATO</h4>
+                    <p>+55 51 999000251 <br> DE SEGUNDA À SEXTA-FEIRA: <br> DAS 8 ÀS 17H <br> FALE CONOSCO</p>
+                </div>
+                <div class="pagamento">
+                    <h4>FORMAS DE PAGAMENTO</h4>
+                    <img src="home/cartao1.png">
+                    <img src="home/cartao2.png">
+                    <img src="home/cartao3.png">
+                    <img src="home/cartao4.png"><br>
+                    <img src="home/cartao5.png">
+                    <img src="home/cartao6.png">
+                </div>
+            </div>
+        </section>
 
+        <section class="barra">
+            <p>®2025 RADU. Todos os direitos reservados.</p>
+        </section>
     </footer>
 </body>
 </html>
